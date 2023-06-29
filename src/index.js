@@ -49,7 +49,7 @@ class PlayGame extends Phaser.Scene {
       this.load.image("block", require("../assets/block_white.png"));
       this.load.image("flowerBlue", require("../assets/flower_blue.png"));
       this.load.image("flowerRed", require("../assets/flower_red.png"));
-      this.load.image("man", require("../assets/man.png"));
+      this.load.image("man", "../assets/man2.png");
 //      this.load.spritesheet("dude", "assets/dude.png", {frameWidth: 32, frameHeight: 48})
     }
 
